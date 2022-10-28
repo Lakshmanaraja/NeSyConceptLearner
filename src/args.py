@@ -31,7 +31,7 @@ def get_args():
         "--batch-size", type=int, default=32, help="Batch size to train with"
     )
     parser.add_argument(
-        "--num-workers", type=int, default=4, help="Number of threads for data loader"
+        "--num-workers", type=int, default=2, help="Number of threads for data loader"
     )
     parser.add_argument(
         "--dataset",
